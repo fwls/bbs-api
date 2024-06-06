@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "forever start app.js",
+    "stop": "forever stop app.js",
+    "migrate": "node migrate.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "forever": "^4.0.3",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "multer": "^1.4.5-lts.1",
+    "muter": "^0.7.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.3"
+  }
+}
